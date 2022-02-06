@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 
 		limelight_vision_node::Limelight limelight;
 		limelight.name = "limelight";
-		limelight.pipeline = 0;
+		limelight.pipeline = 1;
 
 		limelight_vision_node::Limelight_Control limelight_control;
 		limelight_control.limelights.push_back(limelight);
